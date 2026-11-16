@@ -1,0 +1,13 @@
+[package]
+name = "grafri"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "grafri"
+path = "src/lib.rs"
+
+[[bin]]
+name = "grafri"
+path = "src/main.rs"
